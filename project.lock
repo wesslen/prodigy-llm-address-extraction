@@ -1,0 +1,10 @@
+install:
+  cmd: python -m spacy run install
+  script:
+    - python3 -m pip install --upgrade pip
+    - python3 -m pip install -r requirements.txt
+    - dotenv run -- python3 -m pip install prodigy --pre -f https://1846-6A38-C189-0430@download.prodi.gy
+  deps: []
+  outs: []
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9

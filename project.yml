@@ -1,0 +1,100 @@
+title: "Prodigy Address Extraction model bootstrapped with LLM's"
+description: |
+  This project creates an address extraction model. To improve annotation efficiency,
+  we'll experiment with using LLM's to speed up the development process.
+spacy_version: ">=3.5.0,<4.0.0"
+
+# Variables can be referenced across the project.yml using ${vars.var_name}
+vars:
+  config: "config.cfg"
+  version: "1.0.0"
+  dev: "corpus/dev.spacy"
+  train: "corpus/train.spacy"
+  labels: "assets/labels.txt"
+  generate-prompt: "US addresses embedded in text"
+  generate-file: "addresses.jsonl"
+  gpu_id: -1
+
+# These are the directories that the project needs. The project CLI will make
+# sure that they always exist.
+directories: ["assets", "corpus", "training", "scripts", "metrics"]
+
+# Assets that should be downloaded or available in the directory. We're shipping
+# them with the project, so they won't have to be downloaded. But the
+# 'project assets' command still lets you verify that the checksums match.
+assets:
+  - dest: "assets/addresses.jsonl"
+    description: "Initial LLM-generated (synthetic) data"
+
+# Workflows are sequences of commands (see below) executed in order. You can
+# run them via "spacy project run [workflow]". If a commands's inputs/outputs
+# haven't changed, it won't be re-run.
+workflows:
+  setup:
+    - install
+
+# Project commands, specified in a style similar to CI config files (e.g. Azure
+# pipelines). The name is the command name that lets you trigger the command
+# via "spacy project run [command] [path]". The help message is optional and
+# shown when executing "spacy project run [optional command] [path] --help".
+commands:
+  - name: "install"
+    help: "Install packages"
+    script:
+      - "python3 -m pip install --upgrade pip"
+      - "python3 -m pip install -r requirements.txt"
+      - "dotenv run -- python3 -m pip install prodigy --pre -f https://xxx@download.prodi.gy"
+
+  - name: "clean-files"
+    script:
+      - "rm -rf assets/*"
+    help: "Clean all files in assets/ folder"
+
+  - name: "clean-venv"
+    script:
+      - "rm -rf venv"
+    help: "Remove the virtual environment"
+
+  - name: "generate-data"
+    script:
+      - "dotenv run -- python3 -m prodigy terms.openai.fetch ${vars.generate-prompt} ./assets/${vars.generate-file} --n 100"
+    help: "Create synthetic data from LLM"
+
+  - name: "ner-manual-train"
+    script:
+      - "python3 -m prodigy ner.manual address_manual blank:en assets/${vars.generate-file} --label ${vars.labels}"
+    help: "NER manual annotate for training from generated (synthetic) data"
+
+  - name: "ner-manual-eval"
+    script:
+      - "python3 -m prodigy ner.manual address_eval blank:en assets/${vars.generate-file} --exclude address_manual --label ${vars.labels}"
+    help: "NER manual annotate for evaluation from generated (synthetic) data"
+
+  - name: "ner-data-to-spacy"
+    script:
+      - "python3 -m prodigy data-to-spacy /corpus --ner address_manual,eval:address_eval"
+    outputs:
+      - "corpus/train.spacy"
+      - "corpus/dev.spacy"
+      - "corpus/config.cfg"
+
+  - name: "train"
+    help: "Train pipeline models"
+    script:
+      - "python3 -m spacy train corpus/config.cfg --output training/ --gpu-id ${vars.gpu_id}"
+    deps:
+      - "corpus/config.cfg"
+      - "corpus/train.spacy"
+      - "corpus/dev.spacy"
+    outputs:
+      - "training/model-best"
+
+  - name: "evaluate"
+    help: "Evaluate the model and export metrics"
+    script:
+      - "python3 -m spacy evaluate training/model-best ${vars.dev} --output training/metrics.json"
+    deps:
+      - "corpus/dev.spacy"
+      - "training/model-best"
+    outputs:
+      - "training/metrics.json"

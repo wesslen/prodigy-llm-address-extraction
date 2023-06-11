@@ -3,35 +3,51 @@ description: |
   This project creates an address extraction model. To improve annotation efficiency,
   we'll experiment with using LLM's to speed up the development process.
 spacy_version: ">=3.5.0,<4.0.0"
+check_requirements: false
 
 # Variables can be referenced across the project.yml using ${vars.var_name}
 vars:
+  name: "address_extraction"
   config: "config.cfg"
-  version: "1.0.0"
+  version: "0.1.0"
+  lang: "en"
   dev: "corpus/dev.spacy"
   train: "corpus/train.spacy"
   labels: "assets/labels.txt"
-  generate-prompt: "US addresses embedded in text"
+  generate-prompt: "Generate sentences with US addresses and locations"
   generate-file: "addresses.jsonl"
+  generate-n: 65
+  vectors: "en_core_web_lg"
   gpu_id: -1
 
 # These are the directories that the project needs. The project CLI will make
 # sure that they always exist.
-directories: ["assets", "corpus", "training", "scripts", "metrics"]
+directories: ["assets", "corpus", "training", "scripts", "packages", "metrics"]
 
 # Assets that should be downloaded or available in the directory. We're shipping
 # them with the project, so they won't have to be downloaded. But the
 # 'project assets' command still lets you verify that the checksums match.
 assets:
   - dest: "assets/addresses.jsonl"
-    description: "Initial LLM-generated (synthetic) data"
+    description: "LLM-generated (synthetic) data"
+  - dest: "assets/addresses_train.jsonl"
+    description: "Annotated training data from LLM-generated (synthetic) data"
+  - dest: "assets/addresses_eval.jsonl"
+    description: "Annotated evaluation data from LLM-generated (synthetic) data"
 
 # Workflows are sequences of commands (see below) executed in order. You can
 # run them via "spacy project run [workflow]". If a commands's inputs/outputs
 # haven't changed, it won't be re-run.
 workflows:
-  setup:
+  all:
     - install
+    - load-annotations
+    - ner-data-to-spacy
+    - train-vectors
+    - evaluate
+  visualize:
+    - package
+    - visualize-model
 
 # Project commands, specified in a style similar to CI config files (e.g. Azure
 # pipelines). The name is the command name that lets you trigger the command
@@ -57,7 +73,7 @@ commands:
 
   - name: "generate-data"
     script:
-      - "dotenv run -- python3 -m prodigy terms.openai.fetch ${vars.generate-prompt} ./assets/${vars.generate-file} --n 100"
+      - "dotenv run -- python3 -m prodigy terms.openai.fetch \"${vars.generate-prompt}\" ./assets/${vars.generate-file} --n ${vars.generate-n}"
     help: "Create synthetic data from LLM"
 
   - name: "ner-manual-train"
@@ -67,21 +83,65 @@ commands:
 
   - name: "ner-manual-eval"
     script:
-      - "python3 -m prodigy ner.manual address_eval blank:en assets/${vars.generate-file} --exclude address_manual --label ${vars.labels}"
+      - "python3 -m prodigy ner.manual address_eval blank:en assets/${vars.generate-file} --exclude address_train --label ${vars.labels}"
     help: "NER manual annotate for evaluation from generated (synthetic) data"
+
+  - name: "ner-train-curve"
+    script:
+      - "python3 -m prodigy train-curve --ner address_train,eval:address_eval --label ${vars.labels}"
+    help: "NER correct annotate for training from generated (synthetic) data"
+
+  - name: "ner-correct"
+    script:
+      - "python3 -m prodigy ner.correct address_correct training/model-last assets/${vars.generate-file} --exclude address_train,address_eval --label ${vars.labels}"
+    help: "NER correct annotate for training from generated (synthetic) data"
+
+  - name: "data-merge"
+    script:
+      - "python3 -m prodigy drop address_train"
+      - "python3 -m prodigy db-merge address_manual,address_correct address_train"
 
   - name: "ner-data-to-spacy"
     script:
-      - "python3 -m prodigy data-to-spacy /corpus --ner address_manual,eval:address_eval"
+      - "python3 -m prodigy data-to-spacy ./corpus --ner address_train,eval:address_eval"
     outputs:
       - "corpus/train.spacy"
       - "corpus/dev.spacy"
       - "corpus/config.cfg"
 
+  - name: "ner-data-debug"
+    script:
+      - "python3 -m spacy debug data corpus/config.cfg --paths.train ${vars.train} --paths.dev ${vars.dev}"
+
   - name: "train"
     help: "Train pipeline models"
     script:
-      - "python3 -m spacy train corpus/config.cfg --output training/ --gpu-id ${vars.gpu_id}"
+      - "python3 -m spacy train corpus/config.cfg --paths.train ${vars.train} --paths.dev ${vars.dev} --output training/ --gpu-id ${vars.gpu_id}"
+    deps:
+      - "corpus/config.cfg"
+      - "corpus/train.spacy"
+      - "corpus/dev.spacy"
+    outputs:
+      - "training/model-best"
+
+  - name: "load-annotations"
+    script:
+      - "python3 -m prodigy drop address_train"
+      - "python3 -m prodigy db-in address_train assets/address_train.jsonl"
+      - "python3 -m prodigy drop address_eval"
+      - "python3 -m prodigy db-in address_eval assets/address_eval.jsonl"
+
+  - name: "train-vectors"
+    help: "Train pipeline models"
+    script:
+      - >-
+        python3 -m spacy train corpus/config.cfg 
+        --paths.train ${vars.train} 
+        --paths.dev ${vars.dev} 
+        --output training/ 
+        --gpu-id ${vars.gpu_id} 
+        --paths.vectors ${vars.vectors}
+        --components.tok2vec.model.embed.include_static_vectors True
     deps:
       - "corpus/config.cfg"
       - "corpus/train.spacy"
@@ -92,9 +152,50 @@ commands:
   - name: "evaluate"
     help: "Evaluate the model and export metrics"
     script:
-      - "python3 -m spacy evaluate training/model-best ${vars.dev} --output training/metrics.json"
+      - >-
+        python3 -m spacy evaluate 
+        training/model-last 
+        ${vars.dev} 
+        --output training/model-last.json
+      - >-
+        python3 -m spacy evaluate 
+        training/model-best 
+        ${vars.dev} 
+        --output training/model-best.json
     deps:
       - "corpus/dev.spacy"
+      - "training/model-last"
       - "training/model-best"
     outputs:
-      - "training/metrics.json"
+      - "training/model-last.json"
+      - "training/model-best.json"
+
+  - name: package
+    help: "Package the trained model as a pip package"
+    script:
+      - "python -m spacy package training/model-last packages --name ${vars.name} --version ${vars.version} --force"
+    deps:
+      - "training/model-last"
+    outputs_no_cache:
+      - "packages/${vars.lang}_${vars.name}-${vars.version}/dist/${vars.lang}_${vars.name}-${vars.version}.tar.gz"
+
+  - name: visualize-model
+    help: Visualize the model's output interactively using Streamlit
+    script:
+      - "streamlit run scripts/visualize_model.py"
+    deps:
+      - "scripts/visualize_model.py"
+      - "training/model-best"
+      - "training/model-last"
+
+  - name: clean
+    help: "Remove intermediate files"
+    script:
+      - "rm -rf training"
+      - "rm -rf corpus"
+      - "rm -rf packages"
+
+  - name: document
+    help: "Export README for project details"
+    script:
+      - "spacy project document --output README.md"

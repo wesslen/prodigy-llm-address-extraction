@@ -8,3 +8,119 @@ install:
   outs: []
   spacy_version: 3.5.2
   spacy_git_version: aea4a96f9
+ner-data-to-spacy:
+  cmd: python -m spacy run ner-data-to-spacy
+  script:
+    - python3 -m prodigy data-to-spacy ./corpus --ner address_train,eval:address_eval
+  deps: []
+  outs:
+    - path: corpus/train.spacy
+      md5: 3c25838de2f1b4a7739cc42a6a9624a9
+    - path: corpus/dev.spacy
+      md5: 5fd93d7c8f5377f4fcd3a5b66254f5ef
+    - path: corpus/config.cfg
+      md5: f746b68d7ba264c16558c4df30f88879
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9
+evaluate:
+  cmd: python -m spacy run evaluate
+  script:
+    - python3 -m spacy evaluate  training/model-last  corpus/dev.spacy  --output training/metrics-last.json
+    - python3 -m spacy evaluate  training/model-best  corpus/dev.spacy  --output training/metrics-best.json
+  deps:
+    - path: corpus/dev.spacy
+      md5: 5fd93d7c8f5377f4fcd3a5b66254f5ef
+    - path: training/model-last
+      md5: 2e63bc061a225864fecb34c65b6e8f5b
+    - path: training/model-best
+      md5: 4dea95d24b2af121d4c092dfbf8a6f2c
+  outs:
+    - path: training/metrics-last.json
+      md5: e4e16daeed089746608d3a42db98b2f3
+    - path: training/metrics-best.json
+      md5: cc5b0db22c39c93edc19cb429663e5d1
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9
+data-merge:
+  cmd: python -m spacy run data-merge
+  script:
+    - python3 -m prodigy drop address_train
+    - python3 -m prodigy db-merge address_manual,address_correct address_train
+  deps: []
+  outs: []
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9
+ner-data-debug:
+  cmd: python -m spacy run ner-data-debug
+  script:
+    - python3 -m spacy debug data corpus/config.cfg --paths.train corpus/train.spacy
+      --paths.dev corpus/dev.spacy
+  deps: []
+  outs: []
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9
+train:
+  cmd: python -m spacy run train
+  script:
+    - python3 -m spacy train corpus/config.cfg --paths.train corpus/train.spacy --paths.dev
+      corpus/dev.spacy --output training/ --gpu-id -1
+  deps:
+    - path: corpus/config.cfg
+      md5: f746b68d7ba264c16558c4df30f88879
+    - path: corpus/train.spacy
+      md5: 892b26ef567461d24d4eecc3d647af6e
+    - path: corpus/dev.spacy
+      md5: 973ff8970b4f9f1ed5021dbfbe11c90b
+  outs:
+    - path: training/model-best
+      md5: 34872a3a415a051d71015519e821e2ca
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9
+generate-data:
+  cmd: python -m spacy run generate-data
+  script:
+    - dotenv run -- python3 -m prodigy terms.openai.fetch "Generate sentences with
+      US addresses and locations" ./assets/addresses-locations.jsonl --n 65
+  deps: []
+  outs: []
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9
+train-vectors:
+  cmd: python -m spacy run train-vectors
+  script:
+    - python3 -m spacy train corpus/config.cfg  --paths.train corpus/train.spacy  --paths.dev
+      corpus/dev.spacy  --output training/  --gpu-id -1  --paths.vectors en_core_web_lg
+      --components.tok2vec.model.embed.include_static_vectors True
+  deps:
+    - path: corpus/config.cfg
+      md5: f746b68d7ba264c16558c4df30f88879
+    - path: corpus/train.spacy
+      md5: 3c25838de2f1b4a7739cc42a6a9624a9
+    - path: corpus/dev.spacy
+      md5: 5fd93d7c8f5377f4fcd3a5b66254f5ef
+  outs:
+    - path: training/model-best
+      md5: 4dea95d24b2af121d4c092dfbf8a6f2c
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9
+package:
+  cmd: python -m spacy run package
+  script:
+    - python -m spacy package training/model-last packages --name address_extraction
+      --version 0.1.0 --force
+  deps:
+    - path: training/model-last
+      md5: 2e63bc061a225864fecb34c65b6e8f5b
+  outs:
+    - path: packages/en_address_extraction-0.1.0/dist/en_address_extraction-0.1.0.tar.gz
+      md5: 2c88f17697a24b215cab87ad6aae5a5c
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9
+document:
+  cmd: python -m spacy run document
+  script:
+    - spacy project document --output README.md
+  deps: []
+  outs: []
+  spacy_version: 3.5.2
+  spacy_git_version: aea4a96f9

@@ -69,7 +69,9 @@ def main():
     input_text = st.text_area(label="Input", value=default_text, height = 100)  
     doc = process_text(input_model, input_text)
     visualize_nerparser(doc)
-    st.json(input_model + ".json")
+    st.title("Model performance")
+    metrics = srsly.read_json(input_model + ".json")
+    st.json(metrics)
 
 
 if __name__ == "__main__":

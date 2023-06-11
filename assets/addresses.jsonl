@@ -135,3 +135,302 @@
 {"text":"I went to visit a friend in Seattle, WA at 625 8th Avenue.","meta":{"openai_query":"US addresses embedded in text"}}
 {"text":"I'm visiting my grandparents at 2182 Riverview Road, Omaha, Nebraska 68103.","meta":{"openai_query":"US addresses embedded in text"}}
 {"text":"4. Today I'm going to visit 964 Abbot Street, Cleveland, Ohio.","meta":{"openai_query":"US addresses embedded in text"}}
+{"text":"3. \"My friend finally found a place to live at 2345 Longwood Dr, Dallas, TX 75001\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"The package was delivered to 343 Pine Street, Apt 204, Austin, TX 78703.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"Please mail the documents to 462 Dyson Drive Apt. 316, Seattle, WA 98109.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"We were so excited to move into our new home at 2532 2nd Street, Austin, TX 78754.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I can't believe Tim has his own place now, at 2345 Pine Avenue, San Francisco, CA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"John just moved into 3187 Elm Road, Berkeley, CA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"My friend Tom just moved into 3337 Johnson Blvd, Charlotte, NC 28208.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"1. \"I'm moving to a new apartment at 837 San Antonio Street, Los Angeles, CA 90017\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"Check out the new cafe at 985 W 12th St, Los Angeles, CA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"My spouse and I reside in his grandmother's home at 1656 Downing Street, Apartment 6A, Freeport, IN 46025.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I recently traveled to San Francisco, California with the address 5678 West St.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"Jack has been living at 812 Main Avenue, Los Angeles, CA 90210 for over three years.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I'm heading over to 1234 Fifth Avenue, Seattle, WA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I visited my best friend at their apartment in Washington, DC, located at 123 Main St NW.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"Our headquarters is located at 841 Chance Street, Apt. 222, Denver, CO 80283.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"My dad's birthday party will be held at 1001 Apt 3 South Drive, Los Angeles.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"My parents live in 703 Backlund St., Apartment 312, Houston, TX 77094.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"Mary just moved into her new apartment at 1234 Maple Street, Houston, TX.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"We stopped over at Sam's place at 3456 Walnut Avenue, Dallas, TX.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I sent the package to my sister at her address on 8291 Gordon Rd, Sacramento, CA 95829.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"Let's have lunch at 1163 2nd St, Chicago, IL.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"3. I went to 116 N 5th St, Southfield, MI.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"My best friend lives in her grandmother's house on 3215 Mission Street Apt 57, San Francisco, CA 94103.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I am currently residing at 55 West 12th Street, Apartment 203, Myrtle Beach, SC 29572.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I went to a party at 890 1st Ave SE in Bellevue, WA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"1. We took a trip to 916 Redstone Blvd., Staten Island, NY.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"Emily's address is 4234 Monroe Avenue, Minneapolis, MN.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"My sister lives in a luxurious penthouse on 50 Wall Street Apartment 35C, New York, NY 10005.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I sent my niece a birthday present to her address in Austin, TX, 1234 University Ave.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I just moved into 15 Dune Road Apt 28G, Long Beach, California.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"Let's meet up at 456 Oak Street, Spokane, WA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I'm housesitting at 3006 Peachwood Ave Apt 1C, Detroit, Michigan.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I'm meeting my friend at 12 East 4th Street Apt 402 in New York City.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"Zach and I had a great time visiting Danielle at 5000 Park Avenue, Miami, FL.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"5. My uncle's house is at 690 W. 122nd St, Los Angeles, CA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I used to live at 1105 Main Street Apartment 3A, New York, NY 10026.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"4. My best friend lives at 2006 Pearl St, Houston, TX.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"2. \"My sister just moved to 1825 Elm Ave, Chicago, Illinois 60607\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I recently moved to 3233 Barnes Road, Apt 704, Harrisburg, PA 17110.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"2. I just bought my first home at 1400 N Main St, North Brunswick, NJ.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"2. My friend is currently living in a 4 bedroom home at 2905 19th Ave,San Francisco, CA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I grew up at 4311 Lincoln Ave., Washington, DC 20002.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I've been living in my new apartment on 8251 Okmulgee Lane, California, USA for a few weeks now.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"My sister lives in an apartment complex at 452 Glenwood Drive, Houston, TX 77054","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I visited my relatives in their new home at 230 Greenhouse Road, Houston, TX 77040.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I moved to 2804 W Adams St, Chicago, IL 60612 last year\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I'm visiting family at 313 Ferncliff Dr, Dallas, TX 75287.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I'm visiting my friends at 3456 Delaware Ave, Florida, USA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"She recently moved to a new 2 bedroom apartment on Main Street in Miami, FL 33133.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I just moved to a new apartment at 7220 Main Street, Texas, USA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"After a long day at work, I look forward to getting home to my apartment at 1104 Locust Street, Philadelphia, PA 19107.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I went to visit my grandparent's house at 25 Fairview Street, Atlanta, GA 30305","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I used to live at 1520 River View Rd, Queens, NY 11385.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I am looking for a new place at 1500 Chastain Drive, San Antonio, TX","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I just bought an apartment at 150 West 18th Street, New York, NY","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"My grandparent's address is 6543 S. Main St, Los Angeles, CA 90001.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I went to college at 320 East 5th St., New York, NY 10022.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"He lives at the corner of Park Avenue and 34th Street, New York NY","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"My parents live at 7302 12th St, San Francisco, CA 94103.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I love living at 54 West 54th Street, San Francisco, CA 94102.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"1. I lived in a cozy 2 bedroom apartment at 5246 Sycamore Street, Seattle, WA for four years.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I drove to my friend's house at 247 Cedarwood Road, Dallas, TX 75201","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"3. I visited my aunt and uncle at their 3 bedroom apartment at 4456 Main St, New York City, NY.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I am writing to confirm the address I gave on my application, 1120 NW 19th Ave, Miami, FL 33127\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"She moved into a new apartment at 1241 Biscayne Boulevard, Miami, FL","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"My brother moved to 750 Main St., Austin, TX 78701.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"They purchased their new home at 66 Pinegrove Avenue, San Diego, CA 92103.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"We traveled to 3708 Roosevelt Rd., Miami, FL 33133.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I have so many wonderful memories from my days living at 600 Washington Ave N, Minneapolis, MN 55401.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"1. \"I used to live at 1234 Main St. in Los Angeles, CA.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"4. \"My cousins live in an incredible beachfront condo at 999 Ocean Ave., Miami Beach, FL.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"She moved into her new home at 529 2nd Street, San Francisco, CA","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I'm from 10 Ave. N, Brooklyn, NY 11211.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"My brother recently moved to 4255 Little Rock Drive, South Carolina, USA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"2. \"My old address was 2800 Wilshire Blvd., Santa Monica, California.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"We stayed for a few days in a nice apartment at 554 Manley Street, Atlanta, GA 30311.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"My parents live in 1231 King Hicks Rd, Longview, TX 75601\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"3. \"My family spent a summer in a small apartment located at 442 Beacon St., San Francisco, CA.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"We moved into our new apartment at 3 Beach Avenue, Miami, FL 33134","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"This letter is being sent to confirm your new mailing address, 3404 Robinson Lane, Philadelphia, PA 19143\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"This letter is being sent to 312 King St., San Francisco, CA 94110.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"He met his girlfriend at 12 Fisherman Way, San Jose, CA 95133","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I spent a lot of time working on a new address at 9832 Wilshire Blvd., Beverly Hills, CA.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"I recently moved to a new apartment located at 2282 Park Avenue, Sacramento, CA 95819\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I've been living in a 4 bedroom home at 412 Charles Road, Virginia, USA since I graduated from college.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I moved into a tiny apartment at 621 Maple Street, San Diego, CA 92110.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I just moved into an apartment at 5961 Churchill Road, Nashville, TN 37205.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I'm planning a trip to my childhood home on 22 Church Street, New Haven, CT 06510.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I rented a room in a house on 3985 Riverdale Drive, Fort Worth, TX 76116.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"We are originally from 5555 Smith Avenue, Kansas City, MO 64108.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I used to live at 1 5th Street, Houston, TX 77002.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I'm writing from 1101 W Market St, Johnson City, TN 37604.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"\"My brother lives in an apartment at 2345 Seashell Rd., Washington DC\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I spent the summer in a townhouse I rented at 456 Smith Street, Austin, TX 78703.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I recently visited my grandparents at 147 Sunnyside Avenue, New York, NY","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I grew up in a duplex at 1224 Williams Street, Baltimore, MD 21213","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"We recently moved into an apartment at 937 Amber Creek Drive, San Antonio, TX 78239.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"1. \"My brother moved away last year to a house on 1445 East Street, Austin, Texas.\"","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"I'm staying with my friend at 12 Dundee Street, Minneapolis, MN 55404.","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"We're heading up to 17 Lucille Dr., Boston, MA 02110 for the weekend","meta":{"openai_query":"US apt addresses embedded in text"}}
+{"text":"3. My parents reside at 450 South San Francisco Blvd, San Francisco, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"She lives in a cozy apartment on 900 Broadway Street, New York, NY.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. 1278 Main Street, Cincinnati, Ohio 45202","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. 211 West 35th Street, Chicago, Illinois 60616","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The United States Capitol Building is located at E Capitol St NE, Washington, DC 20004.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My office is located at 7600 W 119th St, Overland Park, KS 66213.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Statue of Liberty is located at Liberty Island, New York, NY 10004.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Disney World is located at 778 East Buena Vista Drive, Lake Buena Vista, FL 32830.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My parents live at 544 3rd St, Santa Rosa, CA 95401.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Space Needle is located at 400 Broad St, Seattle, WA 98109.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"545 West 55th Street, New York City, NY, USA is home to Madison Square Garden.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I recently visited my grandparents at 12170 Edgewater Drive, Dayton, OH.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. My mother grew up in 975 Lawrence Street, Denver, Colorado.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I live on 4251 SE 82nd Avenue, Portland, OR 97266.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Grand Canyon National Park is located at Hwy 64, Grand Canyon, AZ 86023.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. I live at 1234 Main Street, Milwaukee, Wisconsin, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. 545 Liberty Avenue, Philadelphia, Pennsylvania 19123","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. 5785 Forestdale Drive, Tampa, Florida 33602","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. I went to the movies at 390 North Winston Street, Austin, TX.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. I visited the Washington Monument at 2 15th St NW, Washington, DC.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. My son lives at 456 West Main Street, Savannah, GA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. My office is located at 4567 Peach Lane, Los Angeles, California, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. She went to 5678 Elm Avenue, Houston, Texas, USA to visit her family.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. The cafe is located at 1817 P Street NW, Washington, DC.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. I live at 3220 5th Avenue, San Diego, California.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My brother lives in a house on 444 3rd Street S.E., Washington, DC.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"432 Westland Avenue, Los Angeles, CA, USA is the address of City Hall.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My aunt and uncle just bought a place on 33 Main Street, Seattle, WA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The US Capitol is located at First Street Southeast, Washington, DC, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"We drove down the scenic Route 66 from Chicago, IL to Los Angeles, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Golden Gate Bridge is located at State Highway Spanning San Francisco Bay, San Francisco, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. Our new store is at 9876 Maple Place, Chicago, Illinois, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. My aunt's house is on 505 12th Street S, Arlington, Virginia.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Library of Congress is located at 101 Independence Ave SE, Washington, DC 20540.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"We were strolling down the streets of 1517 Main Street, San Francisco, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I went to meet my friend at 1492 East Market Street, San Diego, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Last summer, I visited the White House at 1600 Pennsylvania Avenue Northwest, Washington, DC.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The White House can be found at 1600 Pennsylvania Avenue Northwest, Washington, DC, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My sister lives at 1414 Bayview Dr, Atlantic City, NJ 08401.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Empire State Building is located at 350 5th Ave, New York, NY 10118.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I live at 5734 Woodland Drive, San Francisco, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Grand Canyon is located in Arizona at South Rim Village, Grand Canyon Village, AZ 86023, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Our project is based at 1303 Colby Avenue Seattle, WA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"32 Patriot Way, Austin, TX","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. 123 Main Street, Anytown, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"5. 301 Maple Street, GreatCity, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4 Hollinger Road, Orlando, FL","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"They visited 35 Clearwood Drive, Sparks, Nevada","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. 1234 Broadway Avenue, BigTown, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"She lives at 822 West 3rd Street, San Francisco, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I had lunch at 12201 McAllister Freeway in San Antonio, Texas.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I grew up at 4500 Central Avenue, Newark NJ.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"We visited the Las Vegas Strip, Las Vegas, Nevada, US this weekend.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I visited my family at 8705 Mayflower Ave., Harrisburg, PA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Our office is located at 2489 Chestnut Street, Philadelphia, Pennsylvania, US.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"We went to 4 Huckleberry Way, Birmingham, Alabama","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I'm from 250 Pond Street, Austin, Texas","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"She studies at 78 East Forest, Pittsburgh, Pennsylvania","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1 Grant Avenue, Buffalo, NY","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2367 Alwoods Loop, Nashville, TN","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My family lives at 4134 N 4th Street in Philadelphia, Pennsylvania.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. I live at 1234 Main Street, Portland, Oregon 97222.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. 1031 Pine Street, AnyVillage, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"6. 2001 Second Avenue, HomeTown, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I took a trip to 18 Jackson Road in Cambridge, Massachusetts.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Mount Rushmore can be found at 13000 SD244, Keystone, SD 57751, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"599 Esplen Court, Las Vegas, NV","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My parents reside at 19 Liberty Street, Seattle, WA 98102, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. I'm going to visit my grandparent's house at 1142 Reed Avenue, Las Vegas, Nevada 89118.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The restaurant is situated at 2847 East Main Street, Lehigh Valley, PA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I live at 123 Main Street, San Francisco, CA 94112, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Visit us at 45 Richard St, New York, NY 10017, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"We went to the San Francisco Museum of Modern Art, 151 Third Street, San Francisco, California, US.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"9824 Burton Road, Des Moines, IA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"9607 Fisher Park, Memphis, TN","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Space Needle is located at 400 Broad St, Seattle, WA 98109, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. 23 Sunset Boulevard, LittleTown, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Our office is located at 1215 5th Street, NW Washington, DC.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"45 Lincolnshire Street, Minneapolis, MN","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"She works at 919 Glade Street, Albuquerque, New Mexico","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I drove down 661 Walnut Street in San Jose, California.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"She went to the Freedom Trail, Boston Common, Boston, Massachusetts, US.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"7. 4001 Short Street, Homeville, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"They reside at 3106 West 29th Street Little Rock, AR.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I live at 37 Sunny Road, Boise, Idaho","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The office is located at 100 Universal Ave, Los Angeles, CA 90014, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"He travels to 12 Beach Drive, Huntington, West Virginia","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My grandfather lives at 1237 Donnell Street, Los Angeles, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My grandparents used to live at 7540 Summer Ave., Chattanooga, TN.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My friend lives at 71 Valley Center Drive, Seattle, WA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The White House is located at 1600 Pennsylvania Avenue NW, Washington, DC 20500, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. My friend's house is located at 8734 Main Boulevard, Los Angeles, California 90001.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Thompson's family lives at 292 River Avenue in Boston, Massachusetts.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"This shipment was sent from 35 Apple Street, Miami, FL 33135, USA","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. I'm headed to 5643 White Street, Denver, Colorado 80215.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I used to live at 1822 Thayer Rd., Cleveland, OH.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I live at 1348 Grand Street, Miami, Florida, US.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I'm visiting relatives at 9506 Ryder Avenue in Las Vegas, Nevada.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"33 Lincoln Street, St. Louis, MO","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"763 Rosecrans Street, San Diego, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"8554 Delaware Ave, Cleveland, OH.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"She moved to a house in New York City, New York.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. The Statue of Liberty is situated in Liberty Island, New York.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. The White House is at 1600 Pennsylvania Ave NW, Washington, DC 20500.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"5. I moved to 67 W 8th Ave, Colorado Springs, CO 80907.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"165 Wellesley Dr, New Orleans, LA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I went to a movie at the Wells Fargo Center, Camden, NJ 08102, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"397 Brookstone Rd, Kansas City, MO.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"777 Southampton Rd, Baltimore, MD.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My summer home is located on 543 Main Street, Key West, FL 33040, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Last summer I spent a week in Miami, Florida.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I visited Disney World on Orlando, Florida.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. They met at 1325 6th Avenue, Seattle, WA 98109.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"211 Bellfort St, Houston, TX.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Lincoln Memorial is located at 2 Lincoln Memorial Cir NW, Washington, D.C. 20037.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"9378 Wild Basin Rd, Austin, TX.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"They went on a walking tour of San Antonio, Texas.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The White House is located at 1600 Pennsylvania Avenue NW, Washington, DC 20500, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. We flew into 2340 Chestnut Street, Lansing, MI, 48910.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. The Space Needle is situated in Seattle, Washington.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"5. The US Capitol Building is located at East Capitol Street NE, Washington, DC.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I recently travelled to Chicago, Illinois.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. Rockefeller Center is at 1250 Avenue of the Americas, New York, NY 10020.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. Our corporate headquarters is located at 20 Main Street, San Francisco, California, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"203 Bridgeway Blvd,Sausalito, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Fenway Park is located at 4 Yawkey Way, Boston, MA 02215.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. I live at 123 Main Street, Austin, TX 78709.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. They are planning a trip to 4978 Penn Avenue, Tampa, FL, 33612.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Niagara Falls is situated on the Niagara River between the border of Ontario, Canada and New York State in the United States.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. Our vacation destination is 5733 Faber Avenue, Charleston, South Carolina, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. The package was delivered to 37 W Broadway, Boise, Idaho, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. She studied at 25 Broadway, Boston, MA 02338.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Empire State Building is located at 350 5th Ave, New York, NY 10118.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. The White House is located at 1600 Pennsylvania Avenue NW, Washington, DC.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Mall of America is located at 60 E Broadway, Bloomington, MN 55425, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. I live at 818 Elm Street, Chattanooga, TN, 37402.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. The United States Capitol is located at East Capitol Street, Washington, DC 20004.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. I was born in 612 Elk Street, Seattle, Washington, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The White House is located at 1600 Pennsylvania Ave NW, Washington, D.C. 20500.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. She moved to 2421 First Avenue, Honolulu, HI, 96815.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. The Golden Gate Bridge is located in San Francisco, California.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"We explored the Grand Canyon in Arizona.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. Bank of America Plaza is located at 600 Peachtree St NE, Atlanta, GA 30308.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Statue of Liberty resides on Liberty Island, New York City, New York, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I returned to my hometown in San Francisco, California.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Mom and Dad live at 280 5th Avenue, New York City, NY 10001, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I live at 132 4th Avenue, Nashville, TN 37215, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. We were visiting 45 Liberty Blvd, Philadelphia, PA 19106.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"We drove to 1859 Riverpoint Circle, Los Angeles, CA 90025.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. I went to the Paramount Theatre located at 6th & Congress Avenue, Austin, TX 78701.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Louis Armstrong New Orleans International Airport is located at 900 Airline Drive, Kenner, Louisiana, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I visited 4200 Wisconsin Avenue NW, Washington, DC 20016.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. I drove to 555 5th Street, Portland, Oregon 97009.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. The Pentagon is located in Virginia, United States.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"They bought a new house at 78 Financial Way, Norfolk, Virginia, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Last year we flew to Miami, Florida.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"One of the most iconic places in the United States is the Golden Gate Bridge in San Francisco, California.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. The U.S. Supreme Court is located at 1 First St NE, Washington, DC 20543.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I attended a baseball game at Wrigley Field at 1060 W Addison St, Chicago, IL 606137.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My last job was at 231 Madison Avenue, New York, NY 10016.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The Grand Canyon is a natural wonder located in Arizona, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"21 Washington Place, Newark, NJ, 07102.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"5. We're headed to 4321 First Avenue, Minneapolis, Minnesota.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. I moved to 120 Garden Street, Providence, Rhode Island, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. The Grand Canyon is situated in Arizona.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. My aunt moved to 1767 Liberty St, San Jose, CA 95122.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"MetLife Stadium is located in East Rutherford, NJ 07073.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. The Pentagon is located at 1480 Wilson Blvd, Arlington, VA, 22210.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"CedarsSinai Medical Center is located at 8700 Beverly blvd, Los Angeles, California 90048, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The National Mall is situated in Washington, D.C.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"5. I went to visit my friends in Portland, Oregon.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"34 4th Street, Raleigh, NC, 27609.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I grew up in 233 Park Avenue, Maple Valley, Washington, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The John F. Kennedy Presidential Library and Museum is located at Columbia Point Boston, MA 02125, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Grandfather went on a road trip to St. Louis, Missouri.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. My brother lives at 4308 North St, Denver, CO 80217.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"They took a road trip to Mount Rushmore in South Dakota.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"1. Lincoln Memorial is located at 2 Lincoln Memorial Circle NW, Washington, DC 20037.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I moved to 34 Olympic Street, Little Rock, Arkansas.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. The United Nations Headquarters resides at Turtle Bay, in Manhattan, New York, USA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"She toured the Chrysler Building located at 405 Lexington Avenue, New York, NY 10174.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"3. 2534 Meadow View Rd, Atlanta, GA 30349.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The US Supreme Court is located at 1 1st St NE, Washington, DC 20543.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I visited the Chrysler Building at 405 Lexington Avenue, New York, NY 10174.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. We are celebrating our anniversary in the Bahamas.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"My aunt lives at 7140 Hollywood Blvd, Los Angeles, CA 900463.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I went to 3400 19th Avenue SE, Minneapolis, MN 55414.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Seven Falls is located in Colorado Springs, Colorado.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"They were University of Dallas in Dallas, Texas.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"She moved to a house on East 19th Street, San Diego, California.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I have plans to visit Fenway Park in Boston, Massachusetts.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"The National Mall is located on The National Mall between 3rd and 14th Streets NW, Washington, DC.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"2. The Bank of America Plaza is located at 600 Peachtree St NE, Atlanta, GA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"4. I climbed the Empire State Building at 350 5th Ave, New York, NY.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"Went for a run on the beach in Miami, Florida.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I vacationed in South Beach, Miami, Florida.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"I attended a conference in Las Vegas, Nevada.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"6240 Playa Del Rey Drive, Los Angeles, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"34 E Loockerman St, Dover, DE.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}

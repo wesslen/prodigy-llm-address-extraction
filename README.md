@@ -21,23 +21,22 @@ Commands are only re-run if their inputs have changed.
 | Command | Description |
 | --- | --- |
 | `install` | Install packages |
-| `clean-files` | Clean all files in assets/ folder |
+| `clean` | Remove intermediate files |
 | `clean-venv` | Remove the virtual environment |
 | `generate-data` | Create synthetic data from LLM |
 | `ner-manual-train` | NER manual annotate for training from generated (synthetic) data |
 | `ner-manual-eval` | NER manual annotate for evaluation from generated (synthetic) data |
 | `ner-train-curve` | NER correct annotate for training from generated (synthetic) data |
 | `ner-correct` | NER correct annotate for training from generated (synthetic) data |
-| `data-merge` |  |
-| `ner-data-to-spacy` |  |
-| `ner-data-debug` |  |
+| `data-merge` | Merge manual and correct data for training data |
+| `ner-data-to-spacy` | Convert training and evaluations to spaCy binary data |
+| `ner-data-debug` | Run data debug on training and evaluation data |
 | `train` | Train pipeline models |
-| `load-annotations` |  |
-| `train-vectors` | Train pipeline models |
+| `load-annotations` | Load training and evaluation data as Prodigy datasets |
+| `train-vectors` | Train pipeline models with vectors |
 | `evaluate` | Evaluate the model and export metrics |
 | `package` | Package the trained model as a pip package |
 | `visualize-model` | Visualize the model's output interactively using Streamlit |
-| `clean` | Remove intermediate files |
 | `document` | Export README for project details |
 
 ### ⏭ Workflows

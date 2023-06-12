@@ -61,10 +61,13 @@ commands:
       - "python3 -m pip install -r requirements.txt"
       - "dotenv run -- python3 -m pip install prodigy --pre -f https://xxx@download.prodi.gy"
 
-  - name: "clean-files"
+  - name: clean
+    help: "Remove intermediate files"
     script:
-      - "rm -rf assets/*"
-    help: "Clean all files in assets/ folder"
+      - "rm -rf training"
+      - "rm -rf corpus"
+      - "rm -rf packages"
+      - "rm -rf metrics"
 
   - name: "clean-venv"
     script:
@@ -100,16 +103,19 @@ commands:
     script:
       - "python3 -m prodigy drop address_train"
       - "python3 -m prodigy db-merge address_manual,address_correct address_train"
+    help: "Merge manual and correct data for training data"
 
   - name: "ner-data-to-spacy"
     script:
       - "python3 -m prodigy data-to-spacy ./corpus --ner address_train,eval:address_eval"
+    help: "Convert training and evaluations to spaCy binary data"
     outputs:
       - "corpus/train.spacy"
       - "corpus/dev.spacy"
       - "corpus/config.cfg"
 
   - name: "ner-data-debug"
+    help: "Run data debug on training and evaluation data"
     script:
       - "python3 -m spacy debug data corpus/config.cfg --paths.train ${vars.train} --paths.dev ${vars.dev}"
 
@@ -125,6 +131,7 @@ commands:
       - "training/model-best"
 
   - name: "load-annotations"
+    help: "Load training and evaluation data as Prodigy datasets"
     script:
       - "python3 -m prodigy drop address_train"
       - "python3 -m prodigy db-in address_train assets/address_train.jsonl"
@@ -132,7 +139,7 @@ commands:
       - "python3 -m prodigy db-in address_eval assets/address_eval.jsonl"
 
   - name: "train-vectors"
-    help: "Train pipeline models"
+    help: "Train pipeline models with vectors"
     script:
       - >-
         python3 -m spacy train corpus/config.cfg 
@@ -187,13 +194,6 @@ commands:
       - "scripts/visualize_model.py"
       - "training/model-best"
       - "training/model-last"
-
-  - name: clean
-    help: "Remove intermediate files"
-    script:
-      - "rm -rf training"
-      - "rm -rf corpus"
-      - "rm -rf packages"
 
   - name: document
     help: "Export README for project details"

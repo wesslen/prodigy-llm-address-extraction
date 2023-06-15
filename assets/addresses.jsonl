@@ -434,3 +434,350 @@
 {"text":"I attended a conference in Las Vegas, Nevada.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
 {"text":"6240 Playa Del Rey Drive, Los Angeles, CA.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
 {"text":"34 E Loockerman St, Dover, DE.","meta":{"openai_query":"Generate sentences with US addresses and locations"}}
+{"text":"All persons leasing the property at 2 Lucille Ave, Hoboken, NJ 07030 agree to comply with relevant State and Federal laws.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The property located at 25 Washington Street, Albany, NY 12205 is subject to the zoning regulations of the State of New York.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Joe Davis, 402 Devon Dr, Denver, CO 80221","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The property located at 1285 Beverly Drive, LaCrosse, WI 54603 is a single family residence.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The transaction was conducted at 55 Liberty Street, New York, NY 10006.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Sue Johnson, 2748 Connecticut Ave NW, Washington, DC 20008","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Harry Wilson, 1578 Ninth St, Los Angeles, CA 90012","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The US address of the lessor must be listed in the lease agreement and all payments must be made to that address.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Karen Wilson, 1006 4th St, San Antonio, TX 78205","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"All tenant rights under the Ohio LandlordTenant Law shall be observed at 12 Race St, Cleveland, OH 44113.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"All vendors must comply with laws of the State of Florida regarding delivery and shipment of goods to a US address.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The lessee shall observe, comply with, and be bound by applicable laws, regulations, and codes applicable to the leased premises located at 3520 Del Mar Ave, San Diego, CA 92104.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The contract concerning the purchase of 2563 Bowman Rd, Knoxville, Tennessee 37918 by Jane Doe is valid.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The property located at 8029 Ashley Street, Anaheim, CA, was legally purchased by Robert Smith on April 7th, 2020.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The proceedings were held at 85 N Main Street, Minneapolis, MN 55423.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"All licensing agreements must specify the location and jurisdiction of the US address.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The sale of 2837 Crawfordsville Rd, Indianapolis, Indiana 46234 to John Doe is legal and binding.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The lease of 97 Central Ave, Miami, Florida 33133 by Bob Thompson is binding.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The property at 1201 Avenue of the Americas, New York, NY 10036 is owned by Acme Inc.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"John Doe, a resident of 1239 Pebblebrook Lane, Austin, TX, is lawfully entitled to own and operate a shop of his own.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The tenant of Acme Inc. shall abide by the laws of the State of California at 270 North Canon Drive, Beverly Hills, CA 90210.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Acme Inc. has the right to use and occupy 4120 W. Euclid Ave., Chicago, IL 60659.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The defendant had entered the US at the Texas border crossing located at 532 20th Street, San Antonio, TX 78222, United States.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The contract was signed at 715 Boardwalk Avenue, Philadelphia, PA 19112.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The meeting took place at 110 Broadway, San Francisco, CA 94111.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The John Doe, Sr. estate, located at 3532 Lakewood Drive, San Antonio, TX 78209 was deeded to the family.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"David Ross, 2462 Park St, Elizabeth, NJ 07208","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The law firm located at 3 Majore Street, Alexandria VA, is authorized to practice law in the United States of America.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Mike Smith, 636 South Stone St, Chicago, IL 60607","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Property located at 7975 Whitehaven Rd NW, Washington, DC 20310 is sold to Mary Smith.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The Disputed Property is located at 34 Elm Street, Denver, CO 80204.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The plaintiff retained his residence at 563 98th Avenue, Colorado Springs, CO 80914, United States.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The buyers granted title to the property located at 1046 Cold Springs Lane, Trinity, AL 35673.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Possession of 225 Park Ave, New York, NY 10022 must be transferred to the new owners in accordance with State laws.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"All licensed resellers must list their US address and place of business on their invoice.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The car was found in a parking lot on 3456 13th Street, Chico, CA 95929, United States.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Richard Pope at 3073 West Pine St, Seattle, WA 98121","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Susan Park, 17 Creeden Blvd., Ft. Lauderdale, FL 33306","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Bob Austin, 337 Hill St, Baltimore, MD 21230","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The tenants at 3452 Apple Road, Las Vegas, NV 89109 shall abide by the laws of Nevada.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Anne Johnson, 102 Hill Street, Little Rock, AR 72201","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Karen Reynolds, 5821 Walnut Ave, Long Beach, CA 90805","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Consent to operate the business at 2320 Beverly Drive, Columbia, MO 65201 was granted by the county board.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Tom Deville, 3945 Garden Ave, Tampa, Florida 33637","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The licensee must register their US address with the applicable state licensing agency.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"18589 Southside Blvd., Jacksonville, FL 32216 is the agreedupon US address to which all mail should be sent.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The assets of the manufacturing plant located at 74 Nevada Ave., Pittsburgh, PA, 15212 are being liquidated.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The deed to the property at 95 Quail Run Road, San Diego, CA 92103 is being contested.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The rental agreement for the property located at 186 Riverside Dr, Jacksonville FL 32211 was executed by the parties.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The property located at 4121 Commercial Ave, San Bernardino, CA 92407, will be sold to Steve Jones.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The real estate at 55 Beldon Rd, Indianapolis, IN 46249 was registered to the owner in accordance with applicable State laws.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The contract concerning the sale of 645 Fairfield St, Baltimore, MD 21209 by George Washington is valid.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The lessee acknowledges and agrees to all applicable building and zoning regulations for the address at 7842 Old York Road, Burlington, NJ 08016.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"All vendors must comply with the laws and regulations of the Commonwealth of Pennsylvania while selling goods to a US address.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The bank located at 589 Boardwalk Road, Las Vegas, NV, 89121 closed the account in accordance with US banking regulations.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Mike Johnson, 308 Lorigan Ave, Omaha, NE 68102","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The law suit was conducted at 1013 Potomac Ave, Washington, DC 20001.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Steve Anderson, 308 Bridge Rd, Houston, TX 77057","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"All sales conducted on the premises at 8255 West Main Blvd, Jacksonville, FL 32244 must be documented and registered with the relevant State agency.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Eric Jones, 19 Arcadian Drive N, Atlanta, GA 30318","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The new enterprise located at 1402 South Loop, Austin, TX 78707 is a fully legal business.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The lease of 100 Fifth Street, Birmingham, AL 35206 by Bob Thompson is considered binding.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The agreement was executed at 345 Milligan Street, Tulsa OK 74120.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The residential property at 2524 Harrison Road, Fresno, CA 93722 was purchased in 1989.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"David Hopkins, 1858 Mariol Ave, Dallas, TX 75207","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Emma Johnson, 2234 Woodhill Drive, Sacramento, CA 95817","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Marissa Davis, 4778 Eastland Dr, Las Vegas, NV 89104","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The lessee must conform to all applicable laws of the State of Wisconsin pertaining to the premises located at 4200 North 78th Street, Milwaukee, Wisconsin 53215.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Dave Thompson, 7145 Fifth Ave, Brooklyn, NY 11209","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The employees shall observe all laws of the State of Arizona applicable to their place of work at 4053 N. Main Street, Tucson, AZ 85705.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"All royalty payments must be received at 497 Glenwood Avenue, Nashville, TN 37204.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"All payments must be made out to the address of 151 Elm Street, Providence, RI 02903.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The employees of ABC Corporation must follow the safety regulations stated in the US address located at 4677 Southpark Street, Riverside, CA 92501.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"The property located at 4 South Main Street, Akron, Ohio 44307 is leased to Jane Smith.","meta":{"openai_query":"Generate legal text with US addresses and locations"}}
+{"text":"Relaxing with a cup of coffee on 40th Street in Philadelphia, PA","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Trying to beat the heat in #Davenport, Iowa it's not easy!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just checked out 51 Park Avenue, Manhattan! Such an awesome city! \ud83d\uddfd","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Can't believe it's already time to say goodbye to 230 Cimarron Lane, Texas!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"\u201cIt's always nice to be in Wilmington, DE! #DEAddress #Wilmington","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Had an amazing day at 3292 Harbor Run Circle, Georgia this weekend!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Check out the amazing view in the heart of South Holston Street, Virginia. #virginia #usa #southholstonstreet","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Chilling out in Downtown Los Angeles! \ud83d\udccd","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Checking out the iconic skyscrapers of Houston, TX","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Exploring old school Fort Street in San Francisco this weekend. Who\u2019s in? #FortStreetSF","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Saw the most stunning sunset over 1450 Air Way, California tonight  absolute paradise.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Heading to Hamilton Alley for a stroll. Who\u2019s joining me? #BayardStreetChicago","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Minneapolis is a total chill spot! Just visited 3rd Street and 14th Avenue this weekend  mustgo destination! #minnesota #minneapolis","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Loved brunching with friends in the shadow of the 5422 Rose Street building.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Taking a stroll down the magnificent beach of Honolulu, HI! #Honolulu #HI","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"I feel so relaxed surrounded by seaside beauty in 26471 San Clemente, CA","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"What a beautiful day to explore the charming streets of Los Angeles, CA","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"1681 Broadway is a great spot for a night out  there\u2019s so much to do here! #broadway #nyc","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Checking out the 4th of July fireworks on the lawn of 3200 Bell Street. What a night!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"\"Ready to explore Capitol Hill in Seattle, WA! #WAAddress #CapitolHill","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Drove to 1380 Market Street  San Francisco, CA today  what a breathtaking view over the Golden Gate Bridge! \u2600\ufe0f","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Looking forward to exploring the gorgeous city of Austin, TX this weekend!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Where am I? In #Manteca, California of course!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Summertime in Los Angeles is amazing! Visiting the 1622 Sunset Street park is a must.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just moved into an amazing 4205 Bay Drive home, right in the heart of San Antonio!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"A special night to remember at 882 Miramar Cascade, Florida.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Exploring the beauty of Liberty Bell, PA and it's awesome! #LibertyBell #PA","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just visited the iconic Hollywood sign in Los Angeles, CA! #Hollywood #LosAngeles #CA","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Experiencing the fun of DisneyWorld, FL with my family! #DisneyWorld #FL","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Digging into the tasty food finds on 200th St in Charlotte, NC","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"The amazing California sunset view from 1st Street and 5th Avenue in Los Angeles is something you don\u2019t want to miss! #california #losangeles","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Totally loving this street art on Cornelia Street, NYC! \ud83c\udfa8","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Shuffling through some fabulous stores on Canal St. in New York, NY","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"\u201cHeaded to some meetings in Canyon, CA! #CAAddress #Canyon","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Come party like its 1999 with us on North Market Street, Phoenix. #phoenix #usa #northmarketstreet","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"We are located in middle of Downtown, Madison Avenue, New York City. #nyc #usa #madisonavenue","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Taking a walk down Prospect Lane in Pennsauken, New Jersey. Anyone want to join? #ProspectLaneNJ","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"\"At the crossroads of Plaza St and Clover Ave in Princeton, NJ. #NJAddress #Princeton","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just spent my morning at 13 Thames Street, New York! Life is good.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Such a gorgeous day in Orchard Hill, Georgia!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Wow! What a great spot in Nevada 14th St. \ud83d\ude01","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Heading towards 30179 Glenside Avenue, North Carolina. #NCAddress #Glenside","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Went on a tour of Weston Street, Wisconsin this morning  such an incredible place to visit!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Yee haw! Just arrived to North University Ave, San Diego!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Going to the Baseball Stadium for a Yankees game at 668 Alibi Street in New York City. #Yankees #NYC","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Gearing up for an adventure in Searcy Street, Little Rock, AR.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just browsing the books at 3472 High rd in Charlottesville, VA. #HighRoad #Virginia","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Took an amazing tour of Broad Street, Philadelphia, PA this morning. Loved it!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just stopped by 2550 Ramblewood Avenue in Miami, FL for a little sightseeing.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Checking out the charming buildings on Crystal Street, Seattle!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just had the most delicious dinner in the heart of Michigan Avenue, Arizona. So tasty!!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Enjoying the beautiful sunset on River Street, Bridgeport. #CTAddress #Bridgeport","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Enjoying a cool cup of coffee on Grand Canyon Blvd in Las Vegas, NV. #GVAddress #GrandCanyonBlvd","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just strolling around the 25th Avenue & Park Street in Hialeah, FL.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Visiting Lafayette Street, Manhattan with friends this weekend!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"An incredible day spent out at Allens Street in Brooklyn, NY\u2661 #AllensStreet #Brooklyn #NY","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Welcome to the Windy City! Taking in the sights on North Street and Clark Avenue in Chicago. #Chicago #WindyCity #NorthStreetClarkAvenue","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Pretty amazed with the sights of Randolph St. in Chicago","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just visiting the iconic Christian Street in Philadelphia, PA! \ud83e\udd17","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Browsing the art museums of Euclid Avenue in Detroit, Michigan. #Michigan #USA #EuclidAvenue","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Enjoying the journey to 240 Gum Tree Lane, Memphis, Tennessee! \ud83d\ude97","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just explored 6 Hazel Street in Elmira, NY! What a lovely place to be.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Been visiting the historic Galveston Streets, it is beautiful!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Getting ready to explore the wonders of 45 Main Street, New Jersey.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"So excited to visit San Francisco soon! It's plan to take a stroll down Washington at Ellis Street. #SanFrancisco #CA","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Such an awesome day out in 938 Sausalito Dr, California","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just checked out 40th Avenue and Main Street in Denver, Colorado.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Went to Hill Road in Honolulu, HI searching for the beach.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Come join us on Hollywood Blvd, Los Angeles  bring your sunscreen and an open heart to discover the best of LA!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Excited to be in Great Haywood Street, Houston and exploring the city! #houston #usa #greathaywoodstreet","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Celebrated the Fourth of July in the streets of Pecan Street, Austin. #FourthOfJuly #Austin","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Up to no good in Barrow Street, Chicago! #Chicagoaddress #BarrowStreet","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Just checked in at 153 McCormick Drive  Hartford, Connecticut!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Enjoyed a great movie night at 2101 Greystone Dr, Indianapolis!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Chasing beautiful buildings at 37th Street in Washington, DC.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Take in some Memorial Day festivities at 3306 St. Rain Road, Texas. #TexasAddress #StRainRoad","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Loving this little vintage shop in Underwood, Tennessee over by 21st Street. #underwood #tennessee #21ststreet","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Taking a selfie with the amazing view of Waterbury, CT. \u2601\ufe0f","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Let the adventure begin at 151 Market Blvd in California!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Got lost in the aesthetic of Suther Road in Philadelphia. Absolutely beautiful!","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Enjoying a walk around 2nd Street, Seattle this weekend.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Exploring a new slide over 890 University Avenue, Bronx, NY.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Had a great day out in Evergreen Court, Maryland! #maryland #usa #evergreencourt","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Been exploring downtown Atlanta, GA on Washington, NW Street.","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Heading out for a stroll in Kennedy Street in Jersey City, NJ","meta":{"openai_query":"Generate social media posts embedded with parts of US addresses and locations."}}
+{"text":"Come and visit us at Riverside, CA 92503 for amazing marketing deals!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Catch the Fresh Breeze of Nashville, Tennessee","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Find your dream home in Miami, Florida  Make It Count!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Looking to expand your business? Generate marketing ads in the heart of New York City!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get ready to be blown away with great bargains in 1400 Butternut Lane, Raleigh, NC!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Enjoy the sights of Washington D.C. from Constitution Ave!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Explore the delicious food options downtown on Market Street in Philadelphia, PA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the perfect deals in Miami, FL!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Brighten up your kitchen with our appliances from 18 Moon Circle Drive in Oklahoma City, OK","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Try something new in Chicago, IL!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Find your perfect home in Houston, Texas  Start Living Today!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Stop by McLean's Brewpub at 930 S Rd Suite 104, Singer Island, FL and try our delicious selection of beers!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the most impressive marketing content in Tucson, AZ 85714.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Secure your home with the latest security systems from 99 Clarendon Road in Denver, CO","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Try our new gadgets in 246 High Street, Houston, TX!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Stop by El Paso, TX 79925 and see our advertising and marketing options!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Check out our innovative marketing offers now in East St. Louis, IL 62201!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Enjoy the best coffee in the 809 Howell Rd, Los Alamitos, CA area!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"We\u2019re sprucing up Santa Fe, NM and nobody does it like us.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Head to San Francisco, CA for the ultimate shopping experience.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Make your commute easier with discounted bike parts from 114 Miramonte Boulevard in Portland, OR","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Make your business better in Detroit, MI!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come see us in Houston, TX and experience the best!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Revamp your wardrobe with us at 156 Miami Avenue, Fort Lauderdale, FL!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Take your business to the next level with Generate marketing ads from the city of San Francisco!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Experience Bliss in the Coastal City of San Diego, California","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Choose our quality selection in Portland, Oregon \u2013 an unbeatable experience!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come on over to our Daytona Beach, FL store and find something special.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the softest bedding from 4 Springfield Avenue in Chicago, IL","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Discover the perfect product in Philadelphia, PA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get your piece of the Phoenix, Arizona real estate market  Make It Count!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Access highlevel marketing services with Generate ads from Phoenix, AZ!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Explore the Historic Solar of Dallas, Texas","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Find the perfect piece of jewelry at 8 Dairy Plaza, Woodbine, MD.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get your marketing needs met in Augusta, ME 04330.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Drive more customers to your store by advertising in New York, NY!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come Invest in the Dallas, Texas area  Unlock Your Dreams!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come to the sports store at 34 Eagle Pl, Douglas, WY for all your athletic needs.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come Live the San Francisco, California Life  It's Worth It!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Adventure Awaits You in the Heartland of Omaha, Nebraska","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Take advantage of our offers in Dallas, TX!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Discover the Charm of Raleigh, North Carolina","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get ahead of the competition with Generate marketing ads in Los Angeles, CA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Don't miss out on our amazing deals at St. Charles Street in Baltimore, MD!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Visit our downtown Tucson, AZ store and enjoy amazing deals!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Reinvent your business in Los Angeles, CA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come by the boardwalk of Venice Beach in Los Angeles, CA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Relax and Recharge in the SubTropical Paradise of Miami, Florida","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the best in shoes at Michigan Ave in Chicago, IL!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the newest outdoor furniture from 36 Halstead Place in San Antonio, TX","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Join us in 458 Heron Road, San Antonio, TX for a fun shopping experience!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Relax and have fun at Lake Shore Drive in Chicago, IL!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Mountainside Magic Awaits You in Salt Lake City, Utah","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Invest in your business today with Generate marketing ads located in Chicago, IL!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Visit our store for amazing deals in 2148 Nord Avenue, Scottsdale, AZ!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Invest in real estate in Atlanta, Georgia  Live the Dream!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get your business growing in sunny Santa Monica, California","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Generate marketing ads from 16915 Radford Road in Houston, TX.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Give your business an edge with Generate ads in San Diego, CA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Refresh yourself in Manhattan, NY  It's Worth It!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Our Generate marketing ads are located in Boston, MA  Make It Count!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Refine your style in the Heart of Philadelphia, Pennsylvania","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Discover something new in the beautiful city of Las Vegas, Nevada!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Make the most of your business in St. Louis, MO!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Check out our display at Historic South Street in Philadelphia, PA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Express Yourself in Denver, Colorado","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come shop with us in the heart of San Diego, CA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Try something new at Las Vegas Blvd in Las Vegas, NV!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Bundle up for the Winter Season at 17 Harvard Square in Boston, MA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Head to 681 Wadsworth Street, Las Vegas, NV and let us generate great results for you!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Generate up your business in Chicago, IL 60616!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Have some fun at 1512 Elm Street in Austin, TX!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get ready to make a splash in the Big Apple \u2013 New York City!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Join us in Phoenix, Arizona where highquality meets affordability!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get amazing deals at 13 Strand Street in Providence, RI!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Generate now in San Antonio, TX for amazing deals!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come find us at 5607 Grand Street, Sarasota, FL where the deals are better!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come and explore the wonders of Omaha, NE.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Enjoy the amazing adventure of Las Vegas, Nevada","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Experience the city buzz at 49th Street in New York City!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the best deals in our Seattle, WA store  Get Started Now!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come enjoy a beautiful view from the sky in St. Louis, MO!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Experience Modern Convenience with Generate marketing ads in Minneapolis, MN!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Enjoy the best of shopping in Cleveland, Ohio","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Enjoy shopping on Market Street in San Francisco, California","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come to the heart of downtown in Nashville, Tennessee and get topnotch marketing help!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Enjoy the amazing deals at Ocean Avenue in San Francisco, CA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Learn how to market your business in the heart of San Jose, CA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Enjoy the San Diego, CA sunshine  Make It Count!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Join the party on the 5th Street Strip in Las Vegas, NV!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Visit 101 Freedom St., Colorado Springs for exquisite Generate marketing ads","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get tactical and succeed in your business in the city of Phoenix, Arizona!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Find exclusive treasures at 17 Lexington Ct, Lafayette, CA!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Visit us at 321 Maple Street in Colorado Springs, CO for great deals!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Take your business to the next level in Seattle, Washington  Start Now!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come by our store in Birmingham, AL 35224 and enjoy the best deals!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come to the 285 Spruce Street in Juneau, AK for the ultimate shopping experience!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come explore Minneapolis, Minnesota for the experience of a lifetime!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Join us in 920 NW 21st Avenue, Portland, OR for the ultimate shopping experience!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Try out our services in Indian Springs, NV 89018!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the best of marketing services in San Jose, CA 95110.","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get ahead with the top marketing services in Colorado Springs, CO!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the flavor of San Antonio, TX  Experience Authentic!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the hottest fashion trends at 59 Ginkgo Blvd, Chicago, IL!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Upgrade your business in the heart of Baltimore, MD!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Feel the rush in Salem, Oregon \u2013 the city of adventure and possibilities!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Make your dream investment in Austin, TX 78753!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come by 5607 White Lane in Alpharetta, GA and find amazing Generate marketing ads!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Come find your new home in Austin, TX  Life is Waiting!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Stop by Little Rock, AR 72221 and see what we have in store for you!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Enjoy a Fun Day Out in the Apple Capital of the World, Austin, Texas","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the most amazing deals from Generate ads in Milwaukee, WI!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Art and Culture comes to Life in the Streets of New York, NY","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Get the freshest produce at 522 West Texas Street, Beaumont, TX!","meta":{"openai_query":"Generate marketing ads embedded with parts of US addresses and locations."}}
+{"text":"Scientists in Baton Rouge, Louisiana have discovered a new species of frog on South Coursey Boulevard.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Just days after being created following the passage of a controversial bill, the new state of Raleigh, North Carolina, was rocked by protests, with demonstrators gathering outside the Governor's Mansion on 645 W 5th St, Raleigh, North Carolina.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"3. President Trump's rally in San Francisco drew thousands of protestors to Union Square.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Officials in Portland, Oregon revealed on Wednesday that a new shopping center will be built at 932 SW Taylor Street in the city's downtown.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"After spending over $50 million on infrastructure repairs, the longawaited bridge linking Charlotte and WinstonSalem, North Carolina, was officially opened yesterday at 501 E 5th St, Charlotte, North Carolina.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"One person was killed in a crash involving two vehicles on Wednesday in a residential area of Aurora, Colorado (3700 S Pagosa St, Aurora, CO 80013).","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"2. The body of a missing 3 year old boy has been found in a wooded area of Jackson, TN.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Governor Baker Announced the Launch of a New COVID19 Vaccine Trials Site at Massachusetts General Hospital in Boston, MA.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"1. A gas leak reported at 500 11th Ave, New York, NY caused a brief evacuation of several buildings in the area.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Schools in Anchorage, Alaska are facing budget cuts after the local government announced a reduction in funding from Kodiak Drive.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The Golden Gate Bridge in San Francisco, California is the latest landmark to appear in the 2020 Olympics opening ceremony.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A powerful tornado passed through Payne County, Oklahoma this evening, causing extensive damage to homes and businesses in the area.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Today President Obama visited Fayetteville, North Carolina to kick off a tour of the state's rural areas.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A family in Davenport, Iowa were left devastated after a house fire at their residence on North Harrison Street.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The US military are expanding their base in San Diego, California on Balboa Avenue to meet rising demands for security.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A truck fire occurred at the intersection of 2nd Street and Market Street in Los Angeles, California, on Tuesday morning, causing significant traffic delays.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A rare tornado struck near Texas's Fort Worth this weekend, causing damage and power outages in the area.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The mayor of Boston, Massachusetts has called on citizens to organize a bikesharing system throughout the city.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A massive sinkhole has opened up in the town of Houma, Louisiana, causing road closures and significant damage to local businesses.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A 7alarm fire has broken out in a residential building at 1566 5th Avenue in San Diego. Over 100 firefighters are currently on the scene trying to contain the blaze.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"4. Damage from the recent floods in Dayton, OH have been estimated at $500 million.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Residents in Miami, Florida are bracing themselves for the arrival of Hurricane Anna, a Category 4 storm.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The White House in Washington, D.C. is making headlines this week as the Chief of Staff announced new presidential policies.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Actor James Corden touched hearts during an appearance on the latenight talk show, filming his segment from the Hollywood Bowl in Los Angeles, California.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The US Department of State recently unveiled its plans for a new Consulate in Miami, FL, to better serve the growing population of Latin American immigrants.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A man walking across the Brooklyn Bridge in New York City was struck by lightning this morning. The fire department is on the scene at the Manhattan side of the bridge at 2 Broadway.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Officials in Jackson, Mississippi announced on Monday that a new stateoftheart library will open at 289 Main Street in late 2021.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The City of Nashville, TN, issued an eviction moratorium for all residents who are unable to pay rent due to economic hardships caused by the coronavirus pandemic.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A massive explosion rocked a shopping mall in Cleveland, Ohio (240 Richmond Rd, Cleveland, OH 44143), leaving several people injured and one dead.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The Provo Police Department in Utah held a press conference on Tuesday to announce that a 2yearold child had been found safe after going missing for three days.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"4. Drone footage of the fires in Los Angeles captured a vast carpet of flames near the Hollywood Hills, with numerous homes now in danger from the blaze.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The US Supreme Court will hear arguments tomorrow on a case involving a controversial abortion law passed by the state of Georgia.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Authorities in Las Vegas, NVE, are responding to a fire at a downtown hotel on East Fremont Street.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The Denver Zoo has welcomed a new baby hippo, named Moses, to its family. Visitors to the zoo can catch a glimpse of the new addition at 9800 19th Ave, Denver, CO.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Austin, TX officials have announced a new initiative to distribute food to families suffering from food insecurity due to the economic impact resulting from the pandemic.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Hundreds of protesters gathered in Memphis, Tennessee in support of the Black Lives Matter movement, marching from the NAACP's headquarters at the corner of South Main Street and Vance Avenue.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The EPA released a report this week declaring that Anaheim, California has the most polluted air in the US, with levels of particulates exceeding federal health standards on a daily basis.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The Tennessee Valley Authority announced plans to build a new dam in Chattooga County, Georgia that is expected to create 200 jobs and increase tourism to the area.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A plane crash in Marietta, Georgia has left four people dead and seven injured at Cravens Airport on Airport Rd.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A sinkhole in a residential area of Seattle, Washington (848 5th Ave S, Seattle, WA 98104) is causing disruption to local traffic as officials try to assess the situation.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The CDC has issued a warning after a new strain of the flu was discovered in Arkansas.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Residents of Annapolis, Maryland celebrated the restoration of the landmark Francis Scott Key Bridge this week.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A demolition crew were hard at work yesterday in Arlington, Virginia, tearing down an abandoned office building at 1234 Front Street.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A new juvenile detention center opened in San Antonio, Texas, on Monday, sparking controversy among local residents amid allegations of poor conditions for detainees.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A giant pothole was discovered in Spokane, Washington this morning on the South Hill at 311 W. 14th Avenue.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Local authorities report that three people were killed in a car crash on East Market Street in Philadelphia, Pennsylvania on Sunday night.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Residents of Tulsa, Oklahoma have been asked to conserve water during the prolonged drought that has been affecting the area for the past few months.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Disney World, located in Orlando, Florida, officially opened yesterday after being closed for months due to the COVID19 pandemic.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The governor of Washington, DC, announced the construction of a new stateoftheart hospital at 1712 Massachusetts Avenue in the northwest corner of the city.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The worldrenowned Apollo Theater in New York City is set to reopen its doors this August for its first show since the coronavirus pandemic began.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Over 50 businesses in downtown Austin, Texas are facing possible closure due to the city's decision to cut the budget for area street and parking improvements, located at 200 West 1st Street.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The Great Smoky Mountains National Park in Tennessee and North Carolina has reopened its gates after months of being closed off due to the COVID19 pandemic.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A vehicle crash near New Orleans, Louisiana, closed the bridge over the Mississippi River for several hours on Monday morning.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A powerful earthquake struck the state of Oklahoma this morning, with an epicenter located about 30 miles south of Oklahoma City.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"An avalanche on Alaska's Denali National Park killed one and left seven injured, rescuers said.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The National Guard is assisting in the cleanup of an oil spill off the coast of Galveston, Texas at the Galveston Causeway.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A video of police officers pepper spraying protestors in Tulsa, Oklahoma (17 W 6th St, Tulsa, OK 74103) has gone viral, sparking conversation among the local population.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A new charter school is set to open in St. Louis, Missouri in early 2021, offering highquality education to students from all demographics.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A massive electric grid failure affected millions of people in the San Francisco Bay Area this weekend, resulting in widespread power outages.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"On Monday, the U.S. Court of Appeals for the 6th Circuit decided in favor of a nonbinary individual challenging an Ohio driver\u2019s license requirement in Cincinnati (E 5th St and Sycamore St, Cincinnati, OH 45202).","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The Museum of Contemporary Art in Los Angeles, California has announced its fall 2020 season, featuring art installations from leading international artists.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Strong winds damaged numerous buildings in Jackson, Mississippi (801 Pascagoula St, Jackson, MS 39205) on Tuesday night, leaving some structures completely destroyed.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A series of storms is expected to sweep through Central Florida this week, bringing heavy rain and possible floods to the area.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The US Department of Agriculture has announced the creation of a new animal sanctuary in Lancaster County, SC. The 5 millionacre refuge is located at 553 Mill Creek Rd in Lancaster, SC.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Over 500 homes in Colorado Springs, CO were left without power following an electrical storm that struck the area on Wednesday.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A new solar farm is being constructed in California's AnzaBorrego Desert, located at 123 Sims Road, Anza, California.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The US Bureau of Land Management is issuing an emergency closure of a BLM recreation area near Sacramento, California (8500 Doris Colonia Rd, Sacramento, CA 95829) due to the increase in wildfires.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"President Trump held a rally in Tampa, Florida on Thursday, speaking to thousands of supporters gathered at Raymond James Stadium on North Himes Avenue.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A tender for the construction of a new government headquarters in downtown Portland, Maine was granted this week at 601 Congress Street.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The Nobel Peace Prize was awarded to three women from the Middle East this week, in recognition of their efforts for gender equality in the region.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The Saint Louis Art Museum in Missouri opened a new exhibit consisting of art from the Renaissance era, which can be viewed at the main entrance at 1 Fine Arts Dr.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"Apple Inc. announced plans this week to open a new corporate headquarters in Clearwater, Florida at 2700 3rd Street.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"The US Marshals Service has announced the arrest of four fugitives from the recent riots in Minneapolis, Minnesota at the 3rd Precinct Police Department.","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}
+{"text":"A grass fire broke out in Mesquite, Nevada on Wednesday, threatening nearby homes along Christown Road (501 Christown Rd, Mesquite, NV 89027).","meta":{"openai_query":"Generate news article text embedded with US addresses and locations."}}

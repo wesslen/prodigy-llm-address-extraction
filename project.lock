@@ -15,32 +15,32 @@ ner-data-to-spacy:
   deps: []
   outs:
     - path: corpus/train.spacy
-      md5: 3c25838de2f1b4a7739cc42a6a9624a9
+      md5: b0564dd45a9826c097173b39a00d1a6e
     - path: corpus/dev.spacy
-      md5: 5fd93d7c8f5377f4fcd3a5b66254f5ef
+      md5: c44fe48fe12f769bce238fe41278808e
     - path: corpus/config.cfg
       md5: f746b68d7ba264c16558c4df30f88879
-  spacy_version: 3.5.2
-  spacy_git_version: aea4a96f9
+  spacy_version: 3.5.3
+  spacy_git_version: '512241e12'
 evaluate:
   cmd: python -m spacy run evaluate
   script:
-    - python3 -m spacy evaluate  training/model-last  corpus/dev.spacy  --output training/metrics-last.json
-    - python3 -m spacy evaluate  training/model-best  corpus/dev.spacy  --output training/metrics-best.json
+    - python3 -m spacy evaluate  training/model-last  corpus/dev.spacy  --output training/model-last.json
+    - python3 -m spacy evaluate  training/model-best  corpus/dev.spacy  --output training/model-best.json
   deps:
     - path: corpus/dev.spacy
-      md5: 5fd93d7c8f5377f4fcd3a5b66254f5ef
+      md5: c44fe48fe12f769bce238fe41278808e
     - path: training/model-last
-      md5: 2e63bc061a225864fecb34c65b6e8f5b
+      md5: 454ecf7a1e6638470b2278f9ea07a531
     - path: training/model-best
-      md5: 4dea95d24b2af121d4c092dfbf8a6f2c
+      md5: fd763259da0f71585f549043b86866c1
   outs:
-    - path: training/metrics-last.json
-      md5: e4e16daeed089746608d3a42db98b2f3
-    - path: training/metrics-best.json
-      md5: cc5b0db22c39c93edc19cb429663e5d1
-  spacy_version: 3.5.2
-  spacy_git_version: aea4a96f9
+    - path: training/model-last.json
+      md5: 35f505888f5f43d340c50cf558aeacef
+    - path: training/model-best.json
+      md5: 553cf880d823b74e33a8fc2b3db39b89
+  spacy_version: 3.5.3
+  spacy_git_version: '512241e12'
 data-merge:
   cmd: python -m spacy run data-merge
   script:
@@ -48,8 +48,8 @@ data-merge:
     - python3 -m prodigy db-merge address_manual,address_correct address_train
   deps: []
   outs: []
-  spacy_version: 3.5.2
-  spacy_git_version: aea4a96f9
+  spacy_version: 3.5.3
+  spacy_git_version: '512241e12'
 ner-data-debug:
   cmd: python -m spacy run ner-data-debug
   script:
@@ -57,8 +57,8 @@ ner-data-debug:
       --paths.dev corpus/dev.spacy
   deps: []
   outs: []
-  spacy_version: 3.5.2
-  spacy_git_version: aea4a96f9
+  spacy_version: 3.5.3
+  spacy_git_version: '512241e12'
 train:
   cmd: python -m spacy run train
   script:
@@ -79,12 +79,12 @@ train:
 generate-data:
   cmd: python -m spacy run generate-data
   script:
-    - dotenv run -- python3 -m prodigy terms.openai.fetch "Generate sentences with
-      US addresses and locations" ./assets/addresses-locations.jsonl --n 65
+    - dotenv run -- python3 -m prodigy terms.openai.fetch "Generate news article text
+      embedded with US addresses and locations." ./assets/addresses.jsonl --n 65
   deps: []
   outs: []
-  spacy_version: 3.5.2
-  spacy_git_version: aea4a96f9
+  spacy_version: 3.5.3
+  spacy_git_version: '512241e12'
 train-vectors:
   cmd: python -m spacy run train-vectors
   script:
@@ -95,31 +95,39 @@ train-vectors:
     - path: corpus/config.cfg
       md5: f746b68d7ba264c16558c4df30f88879
     - path: corpus/train.spacy
-      md5: 3c25838de2f1b4a7739cc42a6a9624a9
+      md5: b0564dd45a9826c097173b39a00d1a6e
     - path: corpus/dev.spacy
-      md5: 5fd93d7c8f5377f4fcd3a5b66254f5ef
+      md5: c44fe48fe12f769bce238fe41278808e
   outs:
     - path: training/model-best
-      md5: 4dea95d24b2af121d4c092dfbf8a6f2c
-  spacy_version: 3.5.2
-  spacy_git_version: aea4a96f9
+      md5: fd763259da0f71585f549043b86866c1
+  spacy_version: 3.5.3
+  spacy_git_version: '512241e12'
 package:
   cmd: python -m spacy run package
   script:
     - python -m spacy package training/model-last packages --name address_extraction
-      --version 0.1.0 --force
+      --version 0.2.0 --force
   deps:
     - path: training/model-last
-      md5: 2e63bc061a225864fecb34c65b6e8f5b
+      md5: 454ecf7a1e6638470b2278f9ea07a531
   outs:
-    - path: packages/en_address_extraction-0.1.0/dist/en_address_extraction-0.1.0.tar.gz
-      md5: 2c88f17697a24b215cab87ad6aae5a5c
-  spacy_version: 3.5.2
-  spacy_git_version: aea4a96f9
+    - path: packages/en_address_extraction-0.2.0/dist/en_address_extraction-0.2.0.tar.gz
+      md5: 69b35d91d118de9d4a56fefb3d0097c0
+  spacy_version: 3.5.3
+  spacy_git_version: '512241e12'
 document:
   cmd: python -m spacy run document
   script:
     - spacy project document --output README.md
+  deps: []
+  outs: []
+  spacy_version: 3.5.3
+  spacy_git_version: '512241e12'
+ner-train-curve:
+  cmd: python -m spacy run ner-train-curve
+  script:
+    - python3 -m prodigy train-curve --ner address_train,eval:address_eval
   deps: []
   outs: []
   spacy_version: 3.5.3

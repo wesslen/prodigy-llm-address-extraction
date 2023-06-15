@@ -9,12 +9,12 @@ check_requirements: false
 vars:
   name: "address_extraction"
   config: "config.cfg"
-  version: "0.1.0"
+  version: "0.2.0"
   lang: "en"
   dev: "corpus/dev.spacy"
   train: "corpus/train.spacy"
   labels: "assets/labels.txt"
-  generate-prompt: "Generate sentences with US addresses and locations"
+  generate-prompt: "Generate news article text embedded with US addresses and locations."
   generate-file: "addresses.jsonl"
   generate-n: 65
   vectors: "en_core_web_lg"
@@ -43,6 +43,11 @@ workflows:
     - install
     - load-annotations
     - ner-data-to-spacy
+    - train-vectors
+    - evaluate
+  retrain:
+    - ner-data-to-spacy
+    - ner-data-debug
     - train-vectors
     - evaluate
   visualize:
@@ -137,6 +142,12 @@ commands:
       - "python3 -m prodigy db-in address_train assets/address_train.jsonl"
       - "python3 -m prodigy drop address_eval"
       - "python3 -m prodigy db-in address_eval assets/address_eval.jsonl"
+
+  - name: "export-annotations"
+    help: "Explort training and evaluation data as jsonl files"
+    script:
+      - "python3 -m prodigy db-out address_train > ./assets/address_train.jsonl"
+      - "python3 -m prodigy db-out address_eval > ./assets/address_eval.jsonl"
 
   - name: "train-vectors"
     help: "Train pipeline models with vectors"

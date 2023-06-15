@@ -91,7 +91,7 @@ commands:
 
   - name: "ner-train-curve"
     script:
-      - "python3 -m prodigy train-curve --ner address_train,eval:address_eval --label ${vars.labels}"
+      - "python3 -m prodigy train-curve --ner address_train,eval:address_eval"
     help: "NER correct annotate for training from generated (synthetic) data"
 
   - name: "ner-correct"
